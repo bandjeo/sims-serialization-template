@@ -47,10 +47,10 @@ namespace ConsoleApp.model
 
         public void fromCSV(string[] values)
         {
-            Id = Int32.Parse(values[0]);
+            Id = int.Parse(values[0]);
             Name = values[1];
-            Espb = Int32.Parse(values[2]);
-            ProfessorId = Int32.Parse(values[3]);
+            Espb = int.Parse(values[2]);
+            ProfessorId = int.Parse(values[3]);
         }
     }
 }
